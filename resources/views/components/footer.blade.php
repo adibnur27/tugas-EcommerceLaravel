@@ -1,12 +1,12 @@
-<footer class="pt-4" style="border-top: 1px solid black">
+<footer>
     <div class="container">
         <div class="row">
             <div class="col-md-2 mb-3">
                 <h5>Belanja</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" style="text-decoration: none;" class="text-dark">Mac</a></li>
+                    <li><a href="#mac" style="text-decoration: none;" class="text-dark">Mac</a></li>
                     <li><a href="#" style="text-decoration: none;" class="text-dark">iPad</a></li>
-                    <li><a href="#" style="text-decoration: none;" class="text-dark">iPhone</a></li>
+                    <li><a href="#iphone" style="text-decoration: none;" class="text-dark">iPhone</a></li>
                     <li><a href="#" style="text-decoration: none;" class="text-dark">Watch</a></li>
                     <li><a href="#" style="text-decoration: none;" class="text-dark">Musik</a></li>
                     <li><a href="#" style="text-decoration: none;" class="text-dark">Aksesoris</a></li>
@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="text-end">
-            <a href="https://wa.me/" style="max-width: min(100%, 100px); position:fixed; top:450px; bottom:0px; z-index:1;" class="btn rounded-circle">
+            <a href="https://wa.me/" target="_blank" style="max-width: min(100%, 100px); position:fixed; top:450px; bottom:0px; z-index:1;" class="btn rounded-circle">
                 <i class="bi bi-whatsapp"><img width="50px" src="img/whatsapp.svg" alt=""></i>
             </a>
         </div>
