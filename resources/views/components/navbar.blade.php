@@ -2,7 +2,7 @@
     <div class="container">
       <span class="navbar-brand py-1">
         <a href="/">
-          <img width="80px" src="img/2023_Main_Logo.png" alt="">
+          <img width="80px" src="/img/2023_Main_Logo.png" alt="">
         </a>
       </span>
       <ul class="nav justify-content-center">
