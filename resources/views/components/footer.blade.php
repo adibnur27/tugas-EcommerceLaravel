@@ -1,4 +1,4 @@
-@if (!request()->is('listproducts'))    
+@if (!request()->is('listproducts','listcategoriesproducts'))    
     <footer>
             <div class="container">
                 <div class="row">

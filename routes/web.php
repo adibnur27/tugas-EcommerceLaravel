@@ -7,8 +7,10 @@ use PhpParser\Node\Expr\List_;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\mainPageController;
 use App\Http\Controllers\ListProductsController;
+use App\Http\Controllers\ListCategoryProductsController;
 
 Route::get('/', function () {
     return view('home');
@@ -48,9 +50,8 @@ Route::get('/listproducts', function () {
 Route::get('/listproducts', [ListProductsController::class, 'index']);
 
 
-Route::get('/listcategoriesproducts', function () {
-    return view('listcategoriesproducts', ['title' => 'List Categories Products']);
-});
+Route::get('/listcategoriesproducts', [ListCategoryProductsController::class, 'index']);
+
 Route::get('/checkout', function () {
     return view('checkout', ['title' => 'Checkout']);
 });

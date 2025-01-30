@@ -12,7 +12,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        //
+        $categories = Category::with('products')->get(); // Mengambil semua kategori beserta produk terkait
+        return view('listcategoriesproducts', compact('categories'));
     }
 
     /**
