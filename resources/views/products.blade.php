@@ -6,6 +6,12 @@
           <img src="/img/bannerproductiphone.jpg" class="w-75 mx-auto" alt="">
       </div>
   </a>
+  <div class="container">
+    <div class="text-center">
+        <a href="/listproducts" class="btn btn-primary">List Products</a>
+        <a href="/listcategoriesproducts" class="btn btn-primary">List Categories Products</a>
+    </div>
+  </div>
 
   @foreach ( $products as $product )
       <div id="iphone" class="card" style="max-width: 100%;">

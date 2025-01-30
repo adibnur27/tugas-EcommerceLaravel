@@ -15,6 +15,9 @@
         <li class="nav-item">
           <a class="nav-link text-black active" href="/cart">Cart</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-black active" href="{{ route('login') }}">login</a>
+        </li>
       </ul>
     </div>
 </nav>
